@@ -1,0 +1,9 @@
+runtime: nodejs20
+
+instance_class: F1
+
+env_variables:
+  NODE_ENV: "production"
+  DATABASE_URL: "postgresql://postgres:anas729k1112222@db.iknnzccnhuwhxnvjxnih.supabase.co:5432/postgres?sslmode=require"
+  SESSION_SECRET: "dev-only-secret-change-me"
+  FRONTEND_URL: "https://team-tasks-manager.netlify.app"

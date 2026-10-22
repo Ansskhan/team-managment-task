@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Light theme base */
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+}
+
+/* thin scrollbar for panels */
+.nice-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.nice-scroll::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full;
+}
